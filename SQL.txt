@@ -1,0 +1,46 @@
+-- create a table1
+CREATE TABLE products (
+  id INTEGER PRIMARY KEY ,
+  name TEXT NOT NULL
+);
+
+-- create a table2
+CREATE TABLE categories (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL
+);
+
+-- create a table3
+CREATE TABLE products_categories (
+  id INTEGER PRIMARY KEY,
+  product_id INTEGER NOT NULL,
+  category_id INTEGER NOT NULL,
+  FOREIGN KEY (product_id) REFERENCES products(id),
+  FOREIGN KEY (category_id) REFERENCES categories(id)
+);
+
+-- insert some values
+INSERT INTO products (name) VALUES ('chair');
+INSERT INTO products (name) VALUES ('bath');
+INSERT INTO products (name) VALUES ('carpet');
+INSERT INTO products (name) VALUES ('shovel');
+
+INSERT INTO categories (name) VALUES ('kitchen');
+INSERT INTO categories (name) VALUES ('bedroom');
+INSERT INTO categories (name) VALUES ('bathroom');
+
+INSERT INTO products_categories (product_id,category_id) VALUES (1,1);
+INSERT INTO products_categories (product_id,category_id) VALUES (1,2);
+INSERT INTO products_categories (product_id,category_id) VALUES (2,3);
+INSERT INTO products_categories (product_id,category_id) VALUES (3,1);
+INSERT INTO products_categories (product_id,category_id) VALUES (3,2);
+INSERT INTO products_categories (product_id,category_id) VALUES (3,3);
+
+-- fetch some values
+SELECT * FROM products;
+SELECT * FROM categories;
+SELECT * FROM products_categories;
+
+SELECT products.name, categories.name FROM products 
+LEFT JOIN products_categories ON products_categories.product_id = products.id
+LEFT JOIN categories ON products_categories.category_id = categories.id
