@@ -1,0 +1,12 @@
+C:\MyProgramms\Tests\TestPracticalTask\TestPracticalTask.Library\obj\Debug\net6.0\TestPracticalTask.Library.csproj.AssemblyReference.cache
+C:\MyProgramms\Tests\TestPracticalTask\TestPracticalTask.Library\obj\Debug\net6.0\TestPracticalTask.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProgramms\Tests\TestPracticalTask\TestPracticalTask.Library\obj\Debug\net6.0\TestPracticalTask.Library.AssemblyInfoInputs.cache
+C:\MyProgramms\Tests\TestPracticalTask\TestPracticalTask.Library\obj\Debug\net6.0\TestPracticalTask.Library.AssemblyInfo.cs
+C:\MyProgramms\Tests\TestPracticalTask\TestPracticalTask.Library\obj\Debug\net6.0\TestPracticalTask.Library.csproj.CoreCompileInputs.cache
+C:\MyProgramms\Tests\TestPracticalTask\TestPracticalTask.Library\bin\Debug\net6.0\TestPracticalTask.Library.deps.json
+C:\MyProgramms\Tests\TestPracticalTask\TestPracticalTask.Library\bin\Debug\net6.0\TestPracticalTask.Library.dll
+C:\MyProgramms\Tests\TestPracticalTask\TestPracticalTask.Library\bin\Debug\net6.0\TestPracticalTask.Library.pdb
+C:\MyProgramms\Tests\TestPracticalTask\TestPracticalTask.Library\obj\Debug\net6.0\TestPracticalTask.Library.dll
+C:\MyProgramms\Tests\TestPracticalTask\TestPracticalTask.Library\obj\Debug\net6.0\refint\TestPracticalTask.Library.dll
+C:\MyProgramms\Tests\TestPracticalTask\TestPracticalTask.Library\obj\Debug\net6.0\TestPracticalTask.Library.pdb
+C:\MyProgramms\Tests\TestPracticalTask\TestPracticalTask.Library\obj\Debug\net6.0\ref\TestPracticalTask.Library.dll
