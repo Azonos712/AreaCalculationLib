@@ -9,10 +9,20 @@ namespace TestPracticalTask.Library
     public class Circle : IArea
     {
         private double _r;
+        public double R
+        {
+            get { return _r; }
+            private set
+            {
+                if (value <= 0)
+                    throw new Exception("Invalid data");
+                _r = value;
+            }
+        }
 
         public Circle(double r)
         {
-            _r = r;
+            R = r;
         }
 
         public double CalculateArea()
