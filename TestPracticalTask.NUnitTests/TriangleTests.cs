@@ -25,6 +25,5 @@ namespace TestPracticalTask.NUnitTests
                 var _badTriangle = new Triangle(1, 1, 5);
             });
         }
-
     }
 }
