@@ -17,6 +17,14 @@ namespace TestPracticalTask.Library
             _a = a;
             _b = b;
             _c = c;
+
+            if (!IsTriangle())
+                throw new Exception("Invalid data");
+        }
+
+        public bool IsTriangle()
+        {
+            return (_a + _b > _c) && (_a + _c > _b) && (_b + _c > _a);
         }
 
         public double CalculateArea()
