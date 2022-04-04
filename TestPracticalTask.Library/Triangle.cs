@@ -19,7 +19,7 @@ namespace TestPracticalTask.Library
             _c = c;
 
             if (!IsTriangle())
-                throw new Exception("Invalid data");
+                throw new InvalidDataException("Invalid data");
         }
 
         public bool IsTriangle()

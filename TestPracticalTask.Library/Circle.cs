@@ -15,7 +15,7 @@ namespace TestPracticalTask.Library
             private set
             {
                 if (value <= 0)
-                    throw new Exception("Invalid data");
+                    throw new InvalidDataException("Invalid data");
                 _r = value;
             }
         }
