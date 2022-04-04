@@ -13,8 +13,8 @@ namespace TestPracticalTask.NUnitTests
         [Test]
         public void GoodAreaCalculation()
         {
-            var _goodTriangle = new Triangle(3, 4, 5);
-            Assert.AreEqual(_goodTriangle.CalculateArea(), 6);
+            var goodTriangle = new Triangle(3, 4, 5);
+            Assert.AreEqual(goodTriangle.CalculateArea(), 6);
         }
 
         [Test]
@@ -22,8 +22,15 @@ namespace TestPracticalTask.NUnitTests
         {
             Assert.Throws<InvalidDataException>(() =>
             {
-                var _badTriangle = new Triangle(1, 1, 5);
+                var badTriangle = new Triangle(1, 1, 5);
             });
+        }
+
+        [Test]
+        public void RightTriangle()
+        {
+            var rightTriangle = new Triangle(20, 21, 29);
+            Assert.AreEqual(rightTriangle.IsRightTriangle(), true);
         }
     }
 }

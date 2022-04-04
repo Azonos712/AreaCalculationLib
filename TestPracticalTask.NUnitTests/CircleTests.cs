@@ -9,8 +9,8 @@ namespace TestPracticalTask.NUnitTests
         [Test]
         public void GoodAreaCalculation()
         {
-            var _goodCircle = new Circle(5);
-            Assert.AreEqual(Math.Round(_goodCircle.CalculateArea(), 4), Math.Round(78.5398, 4));
+            var goodCircle = new Circle(5);
+            Assert.AreEqual(Math.Round(goodCircle.CalculateArea(), 4), Math.Round(78.5398, 4));
         }
 
         [Test]
@@ -18,7 +18,7 @@ namespace TestPracticalTask.NUnitTests
         {
             Assert.Throws<InvalidDataException>(() =>
             {
-                var _badCircle = new Circle(-4);
+                var badCircle = new Circle(-4);
             });
         }
     }
