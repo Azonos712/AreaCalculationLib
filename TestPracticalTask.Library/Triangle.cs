@@ -32,5 +32,10 @@ namespace TestPracticalTask.Library
             var p = (_a + _b + _c) / 2;
             return Math.Sqrt(p * (p - _a) * (p - _b) * (p - _c));
         }
+
+        public bool IsRightTriangle()
+        {
+            return _c * _c == _a * _a + _b * _b;
+        }
     }
 }
