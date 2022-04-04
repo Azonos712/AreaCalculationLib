@@ -8,6 +8,6 @@ namespace TestPracticalTask.Library
 {
     public interface IArea
     {
-        float CalculateArea();
+        double CalculateArea();
     }
 }
