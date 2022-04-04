@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MyProgramms\\Tests\\TestPracticalTask\\TestPracticalTask.NUnitTests\\TestPracticalTask.NUnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\MyProgramms\\Tests\\TestPracticalTask\\TestPracticalTask.Library\\TestPracticalTask.Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MyProgramms\\Tests\\TestPracticalTask\\TestPracticalTask.Library\\TestPracticalTask.Library.csproj",
+        "projectName": "TestPracticalTask.Library",
+        "projectPath": "C:\\MyProgramms\\Tests\\TestPracticalTask\\TestPracticalTask.Library\\TestPracticalTask.Library.csproj",
+        "packagesPath": "C:\\Users\\Intel\\.nuget\\packages\\",
+        "outputPath": "C:\\MyProgramms\\Tests\\TestPracticalTask\\TestPracticalTask.Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Intel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200-preview.22055.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MyProgramms\\Tests\\TestPracticalTask\\TestPracticalTask.NUnitTests\\TestPracticalTask.NUnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MyProgramms\\Tests\\TestPracticalTask\\TestPracticalTask.NUnitTests\\TestPracticalTask.NUnitTests.csproj",
+        "projectName": "TestPracticalTask.NUnitTests",
+        "projectPath": "C:\\MyProgramms\\Tests\\TestPracticalTask\\TestPracticalTask.NUnitTests\\TestPracticalTask.NUnitTests.csproj",
+        "packagesPath": "C:\\Users\\Intel\\.nuget\\packages\\",
+        "outputPath": "C:\\MyProgramms\\Tests\\TestPracticalTask\\TestPracticalTask.NUnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Intel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\MyProgramms\\Tests\\TestPracticalTask\\TestPracticalTask.Library\\TestPracticalTask.Library.csproj": {
+                "projectPath": "C:\\MyProgramms\\Tests\\TestPracticalTask\\TestPracticalTask.Library\\TestPracticalTask.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200-preview.22055.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
